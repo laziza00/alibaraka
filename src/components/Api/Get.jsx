@@ -27,7 +27,6 @@ const GET = {
   partners: () => axios.get(PARTNERS, headers),
   product_by_category: () => axios.get(PRODCT_BY_CATEGORY, headers),
   blog_last: () => axios.get(BLOG_LAST, headers),
-  config: () => axios.get(CONFIG, headers),
 }
 
 export default GET;
