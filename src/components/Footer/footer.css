@@ -1,0 +1,119 @@
+.footer {
+  padding-top: 90px;
+  background-color: #037B35;
+}
+
+.footer__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 46px;
+}
+
+.footer__logoBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+.footer__logo {
+  margin-bottom: 27px;
+}
+
+.footer__logoLinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__logoLinks p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.footer__logoLinks a {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+}
+
+.footer__about {
+  width: 20%;
+  padding: 70px 0 0 0;
+}
+
+.footer__about-title {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.footer__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer__item {
+  margin-bottom: 7px;
+}
+
+.footer__link {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #60B45A;
+}
+
+.footer__bottom {
+  padding: 27px 0 35px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__bottom-text {
+  font-family: 'Mulish';
+  font-weight: 400;
+  font-size: 13.5px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+
+.footer__bottom-imgBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+/*# sourceMappingURL=footer.css.map */

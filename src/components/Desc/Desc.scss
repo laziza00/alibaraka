@@ -1,0 +1,48 @@
+.desc {
+    background: #F3F4F6;
+    padding: 84px 0;
+
+    &__info {
+        display: flex;
+        margin: 0 0 26px 0;
+    }
+
+    &__title {
+        font-weight: 600;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        color: #2C2C2C;
+    }
+
+    .blck {
+        margin: 0 40px 0 0;
+        position: relative;
+    }
+
+    .blck::after {
+        content: '';
+        display: block;
+        position: absolute;
+        bottom: 2px;
+        left: 0;
+        width: 226px;
+        height: 5px;
+        background: rgba(3, 123, 53, 0.25);
+        border-radius: 46px;
+    }
+
+    .white {
+        color: #2C2C2C;
+        opacity: 0.25;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.02em;
+        color: #2C2C2C;
+        letter-spacing: .1em;
+    }
+}

@@ -1,0 +1,77 @@
+@import '../../assets/sass/main.scss';
+.little {
+    padding: 400px 0 100px 0;
+    width: 100%;
+    height: 100vh;
+    // background-image: url('../../assets/images/cloud.png'),url('../../assets/images/green-ot2.png'), url('../../assets/images/green-ot.png');
+    // background-size: 12% 200px, 367px 367px,367px 367px ;
+    // background-repeat: no-repeat, no-repeat, no-repeat;
+    // background-position: top 20px 0 right 0, top 70px center 200px , top 50px center 100px !important; 
+
+    &__inner {
+        @include d-flex;
+        @include between;
+    }
+    &__title {
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 54px;
+        text-transform: uppercase;
+        color: #000000;
+        margin: 0 0 35px 0;
+        width: 70%;
+    }
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: #000000;
+        margin: 0 0 35px 0;
+        width: 70%;
+    }
+    &__btn-box {
+        @include d-flex;
+    }
+    &__btn-box button:nth-child(1) {
+        margin: 0 10px 0 0;
+    }
+    &__btn {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: $primary-color;
+        border-radius: 30px;
+        border: 1px solid $primary-color;
+        padding: 8px 18px;
+        background-color: #fff;
+    }
+    .our {
+        border: none;
+    }
+    &__ms {
+        position: relative;
+    }
+    &__bottom {
+        margin: 100px 0 0 0;
+        @include d-flex;
+        @include between;
+    }
+    &__bg {
+        width: 100%;
+        height: 170px;
+    }
+    &__bottom-box {
+       position: absolute;
+       top: 40%;
+       left: 15%;
+       @include d-flex;
+       @include between;
+    }
+    &__bg-logos {
+        width: 100%;
+        height: auto;
+        margin: 0 40px;
+        object-fit: cover;
+    }
+
+}

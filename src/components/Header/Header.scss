@@ -1,0 +1,45 @@
+@import '../../assets/sass/main.scss';
+
+.header {
+    padding: 25px  0;
+    &__inner {
+        @include d-flex;
+        @include between;
+    }
+    &__list {
+        @include d-flex;
+        @include between;
+    }
+    &__item:not(:last-child) {
+        margin-right: 41px;
+    }
+    &__link {
+        font-weight: 400;
+        font-size: 15.75px;
+        line-height: 18px;
+        color: $primary-color;
+    }
+    &__btn-box {
+        @include d-flex;
+    }
+    &__phone {
+        width: 34px;
+        height: 34px;
+        border-radius: 50%;
+        border: 1.125px solid $primary-color;
+        margin: 0 11px 0 0;
+        @include d-flex;
+        @include center;
+    }
+    &__phone i {
+        font-size: 20px;
+        color: $primary-color;
+    }
+    &__phone-link {
+        font-weight: 400;
+        font-size: 13.5px;
+        line-height: 15px;
+        color: $primary-color;
+    }
+}
+

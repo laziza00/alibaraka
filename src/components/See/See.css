@@ -1,0 +1,95 @@
+.see {
+  padding: 100px 0;
+  margin: 240px 0 0 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("../../assets/images/flg-white.png");
+  background-size: 40% 100%;
+  background-position: top -240px 0 left 0 !important;
+  background-repeat: no-repeat;
+}
+
+.see__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.see__info {
+  width: 50%;
+}
+
+.see__img-box {
+  width: 50%;
+}
+
+.see__title {
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 35px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #037B35;
+  margin: 0 0 8px 0;
+}
+
+.see__text {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 26px;
+  color: #1E252B;
+  margin: 0 0 28px 0;
+}
+
+.see__list {
+  border: 1px solid #D9DCEC;
+  padding: 10px 0 5px 0;
+}
+
+.see__item {
+  background: #FFFFFF;
+  border-radius: 0px;
+  padding: 30px 40px 20px 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.see__item:nth-of-type(2n) p {
+  color: #FCBD17;
+}
+
+.see__item-text {
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #037B35;
+}
+
+.see__item-btn {
+  background-color: #fff;
+  border: none;
+}
+
+.see__item-btn i {
+  font-size: 16px;
+  color: #037B35;
+}
+/*# sourceMappingURL=See.css.map */

@@ -1,0 +1,13 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "Output.scss",
+        "../../assets/sass/main.scss",
+        "../../assets/sass/_fonts.scss",
+        "../../assets/sass/_mixins.scss",
+        "../../assets/sass/_variables.scss"
+    ],
+    "names": [],
+    "file": "Output.css"
+}

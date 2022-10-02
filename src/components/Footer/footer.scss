@@ -1,0 +1,93 @@
+@import '../../assets/sass/main.scss';
+
+.footer {
+  padding-top: 90px;
+  background-color: #037B35;;
+
+  &__top {
+    @include d-flex;
+    margin-bottom: 46px;
+  }
+
+  &__logoBox {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+
+  &__logo {
+    margin-bottom: 27px;
+  }
+
+  &__logoLinks {
+    display: flex;
+    flex-direction: column;
+
+    p {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+
+    a {
+      font-family: 'Poppins';
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 25px;
+      color: #FFFFFF;
+    }
+  }
+
+  &__about {
+    width: 20%;
+    padding: 70px 0 0 0;
+  }
+
+  &__about-title {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+  }
+
+  &__list {
+    @include style-none;
+
+  }
+
+  &__item {
+    margin-bottom: 7px;
+  }
+
+  &__link {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #60B45A;
+  }
+
+  &__bottom {
+    padding: 27px 0 35px 0;
+    @include between;
+
+  }
+
+  &__bottom-text {
+    font-family: 'Mulish';
+    font-weight: 400;
+    font-size: 13.5px;
+    line-height: 17px;
+    color: #FFFFFF;
+  }
+
+  &__bottom-imgBox {
+    @include d-flex;
+    gap: 20px;
+  }
+
+}

@@ -1,0 +1,116 @@
+.little {
+  padding: 400px 0 100px 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.little__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.little__title {
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #000000;
+  margin: 0 0 35px 0;
+  width: 70%;
+}
+
+.little__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  margin: 0 0 35px 0;
+  width: 70%;
+}
+
+.little__btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.little__btn-box button:nth-child(1) {
+  margin: 0 10px 0 0;
+}
+
+.little__btn {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  color: #037B35;
+  border-radius: 30px;
+  border: 1px solid #037B35;
+  padding: 8px 18px;
+  background-color: #fff;
+}
+
+.little .our {
+  border: none;
+}
+
+.little__ms {
+  position: relative;
+}
+
+.little__bottom {
+  margin: 100px 0 0 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.little__bg {
+  width: 100%;
+  height: 170px;
+}
+
+.little__bottom-box {
+  position: absolute;
+  top: 40%;
+  left: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: flex;
+  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.little__bg-logos {
+  width: 100%;
+  height: auto;
+  margin: 0 40px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=Little.css.map */
